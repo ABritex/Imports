@@ -4,12 +4,12 @@ plugins {
     alias(libs.plugins.kotlin.compose)
     alias(libs.plugins.google.gms.google.services)
     alias(libs.plugins.hilt)
-    alias(libs.plugins.ksp) // Replace kapt with ksp
+    alias(libs.plugins.ksp) 
 }
 
 
 android {
-  // Your Existing File
+  // Your Existing Default Code
 }
 
 dependencies {
