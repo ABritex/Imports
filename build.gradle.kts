@@ -4,7 +4,7 @@ plugins {
     alias(libs.plugins.kotlin.compose)
     alias(libs.plugins.google.gms.google.services)
     alias(libs.plugins.hilt)
-    alias(libs.plugins.ksp) 
+    alias(libs.plugins.ksp) // Remove if not gonna use
 }
 
 
@@ -39,9 +39,9 @@ dependencies {
     // Coil for image loading
     implementation(libs.coil.compose)
 
-    // Hilt
+    // Hilt remove if not gonna use
     implementation(libs.hilt.android)
-    ksp(libs.hilt.compiler) // Replace kapt with ksp
+    ksp(libs.hilt.compiler) 
     implementation(libs.hilt.navigation.compose)
 
     testImplementation(libs.junit)
